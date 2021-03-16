@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<body>
+		<h2>Her er mine forms</h2>
+		<form>
+			<label for="name">Navn</label><br>
+			<input type="text" id="name" name="name"><br>
+			<label for="password">Kodeord</label><br>
+			<input type="text" id="password" name="password"><br>
+			<br>
+			<label for="birthdate">Fodselsdag</label><br>
+			<input type="date" id="birthdate" name="birthdate"><br>
+			<br>
+			<label for="gender">Mand</label>
+			<input type="radio" id="gender" name="gender">
+			<label for="gender">Dame</label>
+			<input type="radio" id="gender" name="gender">
+			<label for="gender">Andet</label>
+			<input type="radio" id="gender" name="gender"><br>
+			<br>
+			<label for="hight">Hojde (30-250)</label><br>
+			<input type="range" id="hight" name="hight" min="30" max="250"><br>
+			<br>
+			<label for="haircolor">Vaelg en haarfarve</label><br>
+			<select>
+				<optgroup label="Haarfarve">
+					<option value="black">Black</option>
+					<option value="blond">Blond</option>
+					<option value="brown">Brown</option>
+					<option value="white">White</option>
+					<option value="red">Red</option>
+				</optgroup>
+			</select><br>
+			<br>
+			<label for="drivers-license">Korekort</label><br>
+			<input type="checkbox" id="korekort" name="korekort"><br>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
